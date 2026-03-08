@@ -28,9 +28,9 @@
 html { scroll-behavior: smooth; }
 
 body {
-font-family: ‘DM Sans’, sans-serif;
-background: var(–paper);
-color: var(–ink);
+font-family: ‘DM Sans’, Georgia, sans-serif;
+background: #f5f2eb !important;
+color: #0d0d12 !important;
 overflow-x: hidden;
 }
 
@@ -53,11 +53,11 @@ font-family: ‘Syne’, sans-serif;
 font-weight: 800;
 font-size: 1.1rem;
 letter-spacing: -0.02em;
-color: var(–ink);
+color: #0d0d12;
 text-decoration: none;
 }
 
-.nav-logo span { color: var(–sage); }
+.nav-logo span { color: #4a7c6f; }
 
 .nav-links {
 display: flex;
@@ -68,13 +68,13 @@ list-style: none;
 .nav-links a {
 font-size: 0.85rem;
 font-weight: 500;
-color: var(–text-muted);
+color: #5a5a6a;
 text-decoration: none;
 letter-spacing: 0.02em;
 transition: color 0.2s;
 }
 
-.nav-links a:hover { color: var(–sage); }
+.nav-links a:hover { color: #4a7c6f; }
 
 /* HERO */
 .hero {
@@ -98,7 +98,7 @@ z-index: 2;
 display: inline-flex;
 align-items: center;
 gap: 0.5rem;
-background: var(–sage);
+background: #4a7c6f;
 color: white;
 font-size: 0.7rem;
 font-weight: 600;
@@ -117,12 +117,12 @@ font-weight: 800;
 line-height: 1.0;
 letter-spacing: -0.04em;
 margin-bottom: 1.5rem;
-color: var(–ink);
+color: #0d0d12;
 }
 
 .hero-title em {
 font-style: normal;
-color: var(–sage);
+color: #4a7c6f;
 position: relative;
 }
 
@@ -132,7 +132,7 @@ position: absolute;
 bottom: 2px;
 left: 0; right: 0;
 height: 3px;
-background: var(–gold);
+background: #c9a84c;
 border-radius: 2px;
 }
 
@@ -140,7 +140,7 @@ border-radius: 2px;
 font-size: 1.1rem;
 font-weight: 300;
 line-height: 1.7;
-color: var(–text-muted);
+color: #5a5a6a;
 max-width: 420px;
 margin-bottom: 2.5rem;
 }
@@ -153,7 +153,7 @@ flex-wrap: wrap;
 }
 
 .btn-primary {
-background: var(–ink);
+background: #0d0d12;
 color: white;
 padding: 0.85rem 2rem;
 border-radius: 100px;
@@ -170,7 +170,7 @@ box-shadow: 0 8px 24px rgba(13,13,18,0.2);
 }
 
 .btn-ghost {
-color: var(–sage);
+color: #4a7c6f;
 font-weight: 600;
 font-size: 0.9rem;
 text-decoration: none;
@@ -190,7 +190,7 @@ overflow: hidden;
 .hero-bg-art {
 position: absolute;
 inset: 0;
-background: linear-gradient(135deg, var(–sage) 0%, #2d5248 60%, var(–ink) 100%);
+background: linear-gradient(135deg, #4a7c6f 0%, #2d5248 60%, #0d0d12 100%);
 }
 
 .hero-circles {
@@ -250,7 +250,7 @@ font-family: ‘Syne’, sans-serif;
 font-size: 2.4rem;
 font-weight: 800;
 line-height: 1;
-color: var(–gold-light);
+color: #e8cc80;
 }
 
 .hero-stat-card .label {
@@ -272,7 +272,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 0.5rem;
-color: var(–text-muted);
+color: #5a5a6a;
 font-size: 0.7rem;
 letter-spacing: 0.1em;
 text-transform: uppercase;
@@ -282,7 +282,7 @@ z-index: 2;
 .scroll-line {
 width: 1px;
 height: 40px;
-background: linear-gradient(to bottom, var(–text-muted), transparent);
+background: linear-gradient(to bottom, #5a5a6a, transparent);
 animation: scroll-drop 2s ease-in-out infinite;
 }
 
@@ -300,7 +300,7 @@ font-size: 0.7rem;
 font-weight: 700;
 letter-spacing: 0.15em;
 text-transform: uppercase;
-color: var(–sage);
+color: #4a7c6f;
 margin-bottom: 1rem;
 display: flex;
 align-items: center;
@@ -312,7 +312,7 @@ content: ‘’;
 display: inline-block;
 width: 20px;
 height: 2px;
-background: var(–sage);
+background: #4a7c6f;
 border-radius: 1px;
 }
 
@@ -327,14 +327,14 @@ margin-bottom: 1.5rem;
 
 /* WHAT IS ANXIETY */
 .what-section {
-background: var(–ink);
+background: #0d0d12;
 color: white;
 position: relative;
 overflow: hidden;
 }
 
-.what-section .section-tag { color: var(–gold-light); }
-.what-section .section-tag::before { background: var(–gold-light); }
+.what-section .section-tag { color: #e8cc80; }
+.what-section .section-tag::before { background: #e8cc80; }
 
 .what-inner {
 max-width: 1200px;
@@ -352,7 +352,7 @@ color: rgba(255,255,255,0.75);
 margin-bottom: 1.2rem;
 }
 
-.what-text strong { color: var(–gold-light); font-weight: 500; }
+.what-text strong { color: #e8cc80; font-weight: 500; }
 
 .source-tag {
 display: inline-block;
@@ -394,7 +394,7 @@ transition: border-color 0.3s;
 font-family: ‘Syne’, sans-serif;
 font-size: 3rem;
 font-weight: 800;
-color: var(–gold-light);
+color: #e8cc80;
 line-height: 1;
 margin-bottom: 0.5rem;
 }
@@ -411,7 +411,7 @@ background: linear-gradient(135deg, rgba(74,124,111,0.2), rgba(74,124,111,0.05))
 border-color: rgba(74,124,111,0.3);
 }
 
-.stat-block-wide .num { color: var(–sage-light); }
+.stat-block-wide .num { color: #7fb3a4; }
 
 .what-bg-text {
 position: absolute;
@@ -428,7 +428,7 @@ letter-spacing: -0.05em;
 
 /* IMPACTS */
 .impacts-section {
-background: var(–paper);
+background: #f5f2eb;
 max-width: 100%;
 }
 
@@ -456,7 +456,7 @@ margin-top: 2rem;
 background: white;
 border-radius: 20px;
 padding: 2.5rem 2rem;
-border: 1px solid var(–mist);
+border: 1px solid #e8e4da;
 position: relative;
 overflow: hidden;
 transition: transform 0.3s, box-shadow 0.3s;
@@ -494,7 +494,7 @@ letter-spacing: -0.02em;
 .impact-card p {
 font-size: 0.88rem;
 line-height: 1.7;
-color: var(–text-muted);
+color: #5a5a6a;
 }
 
 .impact-card .accent-bar {
@@ -505,14 +505,14 @@ height: 60%;
 border-radius: 0 2px 2px 0;
 }
 
-.impact-card:nth-child(1) .accent-bar { background: var(–sky); }
-.impact-card:nth-child(2) .accent-bar { background: var(–lilac); }
-.impact-card:nth-child(3) .accent-bar { background: var(–blush); }
-.impact-card:nth-child(4) .accent-bar { background: var(–sage); }
+.impact-card:nth-child(1) .accent-bar { background: #5b8fb5; }
+.impact-card:nth-child(2) .accent-bar { background: #8b7aab; }
+.impact-card:nth-child(3) .accent-bar { background: #d4856a; }
+.impact-card:nth-child(4) .accent-bar { background: #4a7c6f; }
 
 .impacts-quote {
 grid-column: 1 / -1;
-background: var(–ink);
+background: #0d0d12;
 border-radius: 20px;
 padding: 2.5rem 3rem;
 color: white;
@@ -535,7 +535,7 @@ content: ‘”’;
 font-family: ‘Syne’, sans-serif;
 font-size: 6rem;
 line-height: 0.8;
-color: var(–gold);
+color: #c9a84c;
 opacity: 0.4;
 display: block;
 margin-bottom: 0.5rem;
@@ -552,7 +552,7 @@ z-index: 2;
 
 /* MANAGE */
 .manage-section {
-background: var(–mist);
+background: #e8e4da;
 }
 
 .manage-inner {
@@ -579,7 +579,7 @@ transition: transform 0.3s;
 
 .manage-card-header {
 padding: 2rem 2.5rem 1.5rem;
-border-bottom: 1px solid var(–mist);
+border-bottom: 1px solid #e8e4da;
 display: flex;
 align-items: center;
 gap: 1rem;
@@ -589,7 +589,7 @@ gap: 1rem;
 font-family: ‘Syne’, sans-serif;
 font-size: 3.5rem;
 font-weight: 800;
-color: var(–mist);
+color: #e8e4da;
 line-height: 1;
 min-width: 60px;
 }
@@ -611,7 +611,7 @@ padding: 1.8rem 2.5rem 2.5rem;
 .manage-card p {
 font-size: 0.9rem;
 line-height: 1.8;
-color: var(–text-muted);
+color: #5a5a6a;
 margin-bottom: 1rem;
 }
 
@@ -628,7 +628,7 @@ display: flex;
 align-items: flex-start;
 gap: 0.7rem;
 font-size: 0.85rem;
-color: var(–ink);
+color: #0d0d12;
 line-height: 1.5;
 }
 
@@ -645,11 +645,11 @@ font-weight: 700;
 margin-top: 1px;
 }
 
-.manage-card:nth-child(1) .step-dot { background: rgba(74,124,111,0.15); color: var(–sage); }
-.manage-card:nth-child(2) .step-dot { background: rgba(91,143,181,0.15); color: var(–sky); }
+.manage-card:nth-child(1) .step-dot { background: rgba(74,124,111,0.15); color: #4a7c6f; }
+.manage-card:nth-child(2) .step-dot { background: rgba(91,143,181,0.15); color: #5b8fb5; }
 
 .manage-evidence {
-background: var(–ink);
+background: #0d0d12;
 color: white;
 border-radius: 24px;
 padding: 2.5rem;
@@ -672,7 +672,7 @@ border-right: 1px solid rgba(255,255,255,0.08);
 font-family: ‘Syne’, sans-serif;
 font-size: 2.5rem;
 font-weight: 800;
-color: var(–sage-light);
+color: #7fb3a4;
 margin-bottom: 0.4rem;
 }
 
@@ -684,7 +684,7 @@ line-height: 1.5;
 
 /* HELP SECTION */
 .help-section {
-background: linear-gradient(135deg, var(–sage) 0%, #2d5248 100%);
+background: linear-gradient(135deg, #4a7c6f 0%, #2d5248 100%);
 color: white;
 text-align: center;
 }
@@ -695,11 +695,11 @@ margin: 0 auto;
 }
 
 .help-section .section-tag {
-color: var(–gold-light);
+color: #e8cc80;
 justify-content: center;
 }
 
-.help-section .section-tag::before { background: var(–gold-light); }
+.help-section .section-tag::before { background: #e8cc80; }
 .help-section .section-title { color: white; }
 
 .help-cards {
@@ -732,7 +732,7 @@ color: white;
 .help-card .hnum {
 font-size: 1.3rem;
 font-weight: 600;
-color: var(–gold-light);
+color: #e8cc80;
 font-family: ‘Syne’, sans-serif;
 margin-bottom: 0.3rem;
 }
@@ -757,7 +757,7 @@ margin-top: 0.6rem;
 
 /* SYMPTOMS STRIP */
 .symptoms-strip {
-background: var(–gold);
+background: #c9a84c;
 padding: 2rem 5rem;
 overflow: hidden;
 position: relative;
@@ -791,7 +791,7 @@ white-space: nowrap;
 
 /* FOOTER */
 footer {
-background: var(–ink);
+background: #0d0d12;
 color: white;
 padding: 3rem 5rem;
 display: grid;
@@ -807,7 +807,7 @@ font-weight: 800;
 margin-bottom: 0.7rem;
 }
 
-.footer-logo span { color: var(–sage-light); }
+.footer-logo span { color: #7fb3a4; }
 
 footer p {
 font-size: 0.8rem;
@@ -1009,7 +1009,7 @@ footer { grid-template-columns: 1fr; }
         <h2 class="section-title">How Anxiety Impacts Young People's Lives</h2>
       </div>
       <div>
-        <p style="font-size:1rem; line-height:1.8; color:var(--text-muted); margin-top:2.5rem;">
+        <p style="font-size:1rem; line-height:1.8; color:#5a5a6a; margin-top:2.5rem;">
           Anxiety doesn't just affect how you feel in the moment — it can disrupt nearly every area of a young person's life. Here are two key ways it creates lasting impact.
         </p>
       </div>
@@ -1034,26 +1034,26 @@ footer { grid-template-columns: 1fr; }
       </div>
       <div style="display:flex; flex-direction:column; gap:1rem;">
         <div style="background:rgba(91,143,181,0.08); border-radius:14px; padding:1.5rem;">
-          <div style="font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:var(--sky);">1 in 3</div>
-          <div style="font-size:0.82rem; color:var(--text-muted); line-height:1.5;">young Australians with anxiety say it has significantly disrupted their education</div>
+          <div style="font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:#5b8fb5;">1 in 3</div>
+          <div style="font-size:0.82rem; color:#5a5a6a; line-height:1.5;">young Australians with anxiety say it has significantly disrupted their education</div>
         </div>
         <div style="background:rgba(91,143,181,0.08); border-radius:14px; padding:1.5rem;">
-          <div style="font-size:0.9rem; font-weight:600; margin-bottom:0.5rem; color:var(--ink);">Chain effect on young people:</div>
+          <div style="font-size:0.9rem; font-weight:600; margin-bottom:0.5rem; color:#0d0d12;">Chain effect on young people:</div>
           <div style="display:flex; flex-direction:column; gap:0.4rem;">
-            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:var(--text-muted);">
-              <span style="color:var(--sky);">→</span> Anxiety triggered
+            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:#5a5a6a;">
+              <span style="color:#5b8fb5;">→</span> Anxiety triggered
             </div>
-            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:var(--text-muted);">
-              <span style="color:var(--sky);">→</span> Difficulty concentrating
+            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:#5a5a6a;">
+              <span style="color:#5b8fb5;">→</span> Difficulty concentrating
             </div>
-            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:var(--text-muted);">
-              <span style="color:var(--sky);">→</span> Avoidance of school
+            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:#5a5a6a;">
+              <span style="color:#5b8fb5;">→</span> Avoidance of school
             </div>
-            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:var(--text-muted);">
-              <span style="color:var(--sky);">→</span> Falling behind in studies
+            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:#5a5a6a;">
+              <span style="color:#5b8fb5;">→</span> Falling behind in studies
             </div>
-            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:var(--text-muted);">
-              <span style="color:var(--sky);">→</span> Lower self-esteem &amp; future opportunities
+            <div style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; color:#5a5a6a;">
+              <span style="color:#5b8fb5;">→</span> Lower self-esteem &amp; future opportunities
             </div>
           </div>
         </div>
@@ -1063,7 +1063,7 @@ footer { grid-template-columns: 1fr; }
 
   <!-- IMPACT 2 -->
   <div class="impact-card fade-up" style="grid-column: 1 / -1; background: white;">
-    <div class="accent-bar" style="background: var(--lilac);"></div>
+    <div class="accent-bar" style="background: #8b7aab;"></div>
     <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;">
       <div>
         <div class="impact-icon" style="background:rgba(139,122,171,0.12);">🤝</div>
@@ -1078,8 +1078,8 @@ footer { grid-template-columns: 1fr; }
       </div>
       <div style="display:flex; flex-direction:column; gap:1rem;">
         <div style="background:rgba(139,122,171,0.08); border-radius:14px; padding:1.5rem;">
-          <div style="font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:var(--lilac);">7%</div>
-          <div style="font-size:0.82rem; color:var(--text-muted); line-height:1.5;">of young Australians live with social anxiety disorder — one of the most common anxiety types</div>
+          <div style="font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:#8b7aab;">7%</div>
+          <div style="font-size:0.82rem; color:#5a5a6a; line-height:1.5;">of young Australians live with social anxiety disorder — one of the most common anxiety types</div>
         </div>
         <div class="impacts-quote" style="grid-column:unset;">
           <blockquote style="font-size:0.9rem;">"I stopped going to parties and even skipped school because I was terrified of saying the wrong thing. Anxiety made me feel like I was always being watched and judged."</blockquote>
@@ -1090,7 +1090,7 @@ footer { grid-template-columns: 1fr; }
   </div>
 </div>
 
-<div style="margin-top:1rem; font-size:0.72rem; color:var(--text-muted); font-style:italic; text-align:right;">
+<div style="margin-top:1rem; font-size:0.72rem; color:#5a5a6a; font-style:italic; text-align:right;">
   Combined word count for Question 2: ~230 / 250 words (within limit)
 </div>
 ```
@@ -1114,7 +1114,7 @@ footer { grid-template-columns: 1fr; }
     <div class="manage-card-header">
       <div class="manage-number">01</div>
       <div>
-        <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--sage); font-weight:700; margin-bottom:0.3rem;">Evidence-Based Strategy</div>
+        <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:#4a7c6f; font-weight:700; margin-bottom:0.3rem;">Evidence-Based Strategy</div>
         <h3>Cognitive Behavioural Therapy (CBT)</h3>
       </div>
     </div>
@@ -1134,7 +1134,7 @@ footer { grid-template-columns: 1fr; }
         <li><span class="step-dot">3</span>Gradually face feared situations (exposure)</li>
         <li><span class="step-dot">4</span>Build coping skills and resilience over time</li>
       </ul>
-      <span class="source-tag" style="color:var(--text-muted); background:rgba(74,124,111,0.06); border-color:rgba(74,124,111,0.15);">Source: Australian Psychological Society (2021); headspace (2023)</span>
+      <span class="source-tag" style="color:#5a5a6a; background:rgba(74,124,111,0.06); border-color:rgba(74,124,111,0.15);">Source: Australian Psychological Society (2021); headspace (2023)</span>
     </div>
   </div>
 
@@ -1143,7 +1143,7 @@ footer { grid-template-columns: 1fr; }
     <div class="manage-card-header">
       <div class="manage-number" style="color:rgba(91,143,181,0.15);">02</div>
       <div>
-        <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--sky); font-weight:700; margin-bottom:0.3rem;">Lifestyle Management</div>
+        <div style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:#5b8fb5; font-weight:700; margin-bottom:0.3rem;">Lifestyle Management</div>
         <h3>Mindfulness &amp; Regular Physical Activity</h3>
       </div>
     </div>
@@ -1158,12 +1158,12 @@ footer { grid-template-columns: 1fr; }
         <strong>Physical activity</strong> reduces anxiety through multiple biological pathways: it lowers cortisol (the stress hormone), releases endorphins (natural mood elevators), and improves sleep quality — itself a critical factor in managing anxiety. The Australian Government's Physical Activity Guidelines recommend <strong>60 minutes of moderate-to-vigorous exercise daily</strong> for young people, and adherence has been consistently linked with lower rates of anxiety and depression.
       </p>
       <ul class="manage-steps">
-        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:var(--sky);">1</span>Try 10 min of mindfulness each morning (use Smiling Mind app)</li>
-        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:var(--sky);">2</span>Aim for 60 min of physical activity daily (sport, walking, dancing)</li>
-        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:var(--sky);">3</span>Limit screen time &amp; prioritise 8–10 hours sleep</li>
-        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:var(--sky);">4</span>Build a consistent routine — predictability reduces anxiety</li>
+        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:#5b8fb5;">1</span>Try 10 min of mindfulness each morning (use Smiling Mind app)</li>
+        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:#5b8fb5;">2</span>Aim for 60 min of physical activity daily (sport, walking, dancing)</li>
+        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:#5b8fb5;">3</span>Limit screen time &amp; prioritise 8–10 hours sleep</li>
+        <li><span class="step-dot" style="background:rgba(91,143,181,0.15); color:#5b8fb5;">4</span>Build a consistent routine — predictability reduces anxiety</li>
       </ul>
-      <span class="source-tag" style="color:var(--text-muted); background:rgba(91,143,181,0.06); border-color:rgba(91,143,181,0.15);">Source: Australian Government Dept. of Health (2021); Smiling Mind Research Report (2022)</span>
+      <span class="source-tag" style="color:#5a5a6a; background:rgba(91,143,181,0.06); border-color:rgba(91,143,181,0.15);">Source: Australian Government Dept. of Health (2021); Smiling Mind Research Report (2022)</span>
     </div>
   </div>
 
@@ -1184,7 +1184,7 @@ footer { grid-template-columns: 1fr; }
   </div>
 </div>
 
-<div style="margin-top:1rem; font-size:0.72rem; color:var(--text-muted); font-style:italic; text-align:right;">
+<div style="margin-top:1rem; font-size:0.72rem; color:#5a5a6a; font-style:italic; text-align:right;">
   Combined word count for Question 3: ~240 / 250 words (within limit)
 </div>
 ```
